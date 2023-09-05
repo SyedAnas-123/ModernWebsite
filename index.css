@@ -1,0 +1,478 @@
+@font-face {
+  font-family: domain;
+  src: url(./Domain.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  background-color: #222;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#page1 {
+  width: 100vw;
+  height: 140vh;
+  background-color: #c4bcb3;
+  position: relative;
+  overflow: hidden;
+}
+/* nav */
+#nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  /* on y axis center */
+  align-items: center;
+  /* on x axis */
+  justify-content: space-between;
+  padding: 0 30px;
+  border-bottom: 1px solid #222;
+}
+
+#nav > img {
+  height: 35px;
+  width: 30%;
+}
+#nav > h5 {
+  width: 30%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#nav > i {
+  width: 30%;
+  text-align: right;
+}
+
+/* PHOTOS AND TETX ON MAI N PAGE ELEEMS */
+#elems {
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+#elem1 {
+  width: 30%;
+  height: 100%;
+}
+#elem2 {
+  width: 30%;
+  height: 100%;
+  border-right: 2px solid #8b8787;
+  border-left: 2px solid #989494;
+  padding: 20px 30px;
+  text-align: center;
+}
+#elem3 {
+  width: 30%;
+  height: 100%;
+}
+
+/* FOR IMAGE SETTING */
+#image-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+
+#elem1 #image-div {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#elem3 #image-div {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* FOR HOVERING ON IMAGE*/
+#image-div:hover img {
+  scale: 1.1;
+}
+
+/* ELEM 1 */
+/* FONT  */
+#elem1 h4 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: canopee;
+}
+/* NEW PART */
+#elem1 h4 span {
+  background-color: #b43b12;
+  color: #c4bcb3;
+  margin-left: 10px;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+#elem1 p {
+  font-size: 21px;
+  font-family: domain;
+  font-size: 100;
+  color: #3f3d3d;
+}
+/* ELEM 3 */
+
+#elem3 h4 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: canopee;
+}
+/* NEW PART */
+#elem3 h4 span {
+  background-color: #b43b12;
+  color: #c4bcb3;
+  margin-left: 10px;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+#elem3 p {
+  font-size: 21px;
+  font-family: domain;
+  font-size: 100;
+  color: #3f3d3d;
+}
+
+/* eleem2 */
+
+#elem2 h2 {
+  font-family: canopee;
+  font-size: 60px;
+  font-weight: 100;
+}
+#elem2 h3 {
+  font-family: domain;
+  font-size: 40px;
+  font-weight: 1;
+  color: #3f3d3d;
+  margin: 20px 0;
+}
+#elem2 h6 {
+  margin-top: 15px;
+  font-family: domain;
+  font-size: 18px;
+  font-weight: 1;
+  color: #3f3d3d;
+}
+
+/* MIRANDA */
+#page1 > h1 {
+  font-size: 510px;
+  font-weight: 100;
+  font-family: canopee;
+  background-color: #1c1c19;
+  color: #c4bcb3;
+  line-height: 480px;
+  width: 96%;
+  margin-left: 2%;
+}
+
+/* PAGE 2 */
+#page2 {
+  height: 230vh;
+  width: 1005;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 40px;
+}
+
+#page2-left {
+  padding-right: 50px;
+  height: 100%;
+  width: 30%;
+  margin-left: 50px;
+  border-right: 1px solid #474444;
+}
+#page2-left > h2 {
+  font-size: 100px;
+  font-family: canopee;
+  text-align: center;
+  line-height: 150px;
+  font-weight: 100;
+}
+#page2-left > h2 span {
+  font-size: 190px;
+}
+/* img page left  */
+#page2-left img {
+  height: 50%;
+  width: 100%;
+
+  object-fit: cover;
+}
+
+#page2-left p {
+  font-size: 34px;
+  font-family: domain;
+  color: #2f2f2f;
+}
+#page2-right {
+  height: 100%;
+  width: 60%;
+  padding: 0 20px;
+}
+
+#page2-right img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+#page2-right h1 {
+  font-family: canopee;
+  font-size: 97px;
+  letter-spacing: -1px;
+  font-weight: 100;
+}
+#page3 {
+  height: 60vh;
+  padding-bottom: 100px;
+  position: relative;
+  background-color: #c4bcb3;
+}
+
+#page3 h1 {
+  font-size: 420px;
+  font-weight: 100;
+  letter-spacing: -10px;
+  background-color: #1c1c19;
+  width: fit-content;
+  color: #c4bcb3;
+  margin-left: 2%;
+  padding: 0 20px;
+  line-height: 400px;
+  font-family: canopee;
+}
+
+#page3 img {
+  height: 420px;
+  position: absolute;
+  top: 0;
+  right: 3%;
+}
+
+/* PAGE 4 */
+#page4 {
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #c4bcb3;
+  justify-content: space-between;
+}
+#page4-left {
+  width: 60%;
+  height: 100%;
+  padding: 80px 60px;
+}
+#page4-left img {
+  height: 110%;
+  width: 100%;
+  object-fit: cover;
+}
+#page4-right {
+  width: 40%;
+  height: 100%;
+  padding: 80px;
+  padding: 80px 60px;
+}
+#page4-right p {
+  font-size: 34px;
+  font-family: domain;
+  font-weight: 100;
+  color: rgb(34, 34, 34);
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+/* amdaa */
+#page4-right #anda {
+  height: 250px;
+  width: 90%;
+  background-color: #cac1b6;
+  border-radius: 50%;
+  border: 1px solid #2f2f2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+#anda > h1 {
+  font-size: 72px;
+  font-weight: 100;
+  font-family: canopee;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-40%);
+  transition: all ease 0.6s;
+}
+
+#anda > img {
+  height: 60px;
+  transition: all ease 0.6s;
+  transform: translateX(-120%);
+}
+
+/* HOVERING */
+
+#anda:hover img {
+  transform: translateX(58%);
+}
+
+#anda:hover h1 {
+  transform: translateX(100%);
+}
+
+/* poage 5 */
+#page5 {
+  width: 100vw;
+  height: 70vh;
+  background-color: #c4bcb3;
+  position: relative;
+  overflow: hidden;
+}
+
+/* PAGE 6 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page6 {
+    padding: 25px 0;
+    width: 100%;
+    background-color: #C4BCB3;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#page6::-webkit-scrollbar {
+    display: none;
+}
+
+#page6 h1 {
+    font-size: 100px;
+    font-family: domain;
+    font-weight: 100;
+    display: inline-block;
+    /* background-color: red; */
+    animation-timing-function: linear;
+    margin-right: 30px;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#page6 h1 span {
+    font-family: canopee;
+    background-color: #1b1b1b;
+    color: #C4BCB3;
+    padding: 0 12px;
+}
+
+
+#page7 {
+    height: 100px;
+    width: 100%;
+    background-color: #c4bcb3;
+  }
+
+
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 34px));
+    }
+}
+
+#page5:hover h1{
+    animation-play-state: paused;
+}
+
+
+/* The code you provided defines a CSS animation called "scroll" using keyframes and then applies it to elements with the ID "page5" when they are hovered over. Let's break down how this animation works:
+
+@keyframes scroll: This rule defines a CSS animation using keyframes. The animation is named "scroll," and it will be used to change the CSS properties of elements over a set duration. Keyframes allow you to specify how the element's properties change at different points during the animation.
+
+Inside the @keyframes rule, you have two keyframes defined:
+
+0%: This keyframe represents the initial state of the animation. It sets the CSS property "transform" to "translateX(0)," which means there is no horizontal translation. The element is in its original position.
+100%: This keyframe represents the final state of the animation. It sets the CSS property "transform" to "translateX(calc(-100% - 34px))," which means the element will be translated (moved) horizontally by a distance equal to its width plus 34 pixels to the left. This effectively moves the element off the screen to the left.
+#page5:hover h1: This selector targets the "h1" elements inside the element with the ID "page5" when they are being hovered over (:hover pseudo-class).
+
+animation-play-state: paused;: When an "h1" element inside "page5" is hovered over, this CSS rule sets the "animation-play-state" property to "paused." This means that the "scroll" animation defined earlier will stop playing when the "h1" element is hovered over, and the element will remain at the current position in the animation.
+
+In summary, this animation is designed to be applied to "h1" elements inside the "page5" element. When you hover over an "h1" element inside "page5," the animation will pause, and the element will freeze at its current position in the animation, which could be anywhere between the initial and final states defined in the keyframes. The animation will resume when you move the mouse away from the "h1" element. This can create a visually interesting effect when interacting with the "page5" content.
+
+
+
+
+ */
